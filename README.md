@@ -1,5 +1,14 @@
 # Ops201Challenges
 
+## 20210727
+
+## Ops Challenge: Class 02
+
+### Script Objectives
+
+1. Stores a fetches network adapter information, then saves that information to a variable.
+2. Generates a output.txt file containing the network adapter information.
+
 ## 20210728
 
 ## Ops Challenge: Class 03
