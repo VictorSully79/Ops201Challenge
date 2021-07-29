@@ -8,7 +8,7 @@
 # echo "Hello, $name, what brings your here?"
 
 whosBeenHere() {
-  read -p "How far back would you like to go " times
+  read -p "How far back would you like to go? " times
   
   echo "Here are the last $times visitors:"
   last -$times
