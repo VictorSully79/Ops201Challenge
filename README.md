@@ -24,3 +24,17 @@
 1. Include a function that accepts a parameter and uses it.
 
 ### [bashLogin](bashLogin.sh)
+
+## Ops Challenge: Class 04
+
+### Objectives - Arrays
+
+1. Write a Bash script that:
+
+- Creates four directories: dir1, dir2, dir3, dir4
+
+- Put the four directories in an array
+
+- References the array variable to create a new .txt file in each directory
+
+### [bashArrays](bashArrays.sh)
