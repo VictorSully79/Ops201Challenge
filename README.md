@@ -38,3 +38,13 @@
 - References the array variable to create a new .txt file in each directory
 
 ### [bashArrays](bashArrays.sh)
+
+## 20210730
+
+## Ops Challenge: Class 05
+
+### Objectives - Loops
+
+1. Write a script that displays running processes, asks the user for a PID, then kills the process with that PID.
+
+2. Use a loop in your script. 
