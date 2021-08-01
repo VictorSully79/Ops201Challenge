@@ -1,4 +1,10 @@
 #!/bin/bash
+
+# bashLoops
+# Victor Sullivan
+# 20210730
+# Write a script that displays running processes, asks the user for a PID, then kills the process with that PID.
+
 ps
 
 pids=($(ps ax | awk '{print $1}'))
