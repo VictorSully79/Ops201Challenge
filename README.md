@@ -64,3 +64,48 @@
 2. Your script must use at least one list, one loop, and one conditional.
 
 ### [Conditionals](conditionals.sh)
+
+## Ops Challenge: Class 07
+
+### Uses lshw to display system information to the screen about the following components:
+
+Name of the computer:
+- CPU
+  - Product
+  - Vendor
+  - Physical ID
+  - Bus info
+  - Width
+- RAM
+  - Description
+  - Physical ID
+  - Size
+- Display adapter
+  - Description
+  - Product
+  - Vendor
+  - Physical ID
+  - Bus info
+  - Width
+  - Clock
+  - Capabilities
+  - Configuration
+  - Resources
+  - Network adapter
+  - Description
+  - Product
+  - Vendor
+  - Physical ID
+  - Bus info
+  - Logical name
+  - Version
+  - Serial
+  - Size
+  - Capacity
+  - Width
+  - Clock
+  - Capabilities
+  - Configuration
+  - Resources
+
+  [System Information](systemInformation.sh)
