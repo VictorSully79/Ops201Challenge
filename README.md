@@ -109,3 +109,11 @@ Name of the computer:
   - Resources
 
   [System Information](systemInformation.sh)
+
+## Ops Challenge: Class 09
+
+### Objective
+
+Create a Powershell script that fetches useful System event logs.
+
+  [Event Logs](eventLogs.ps1)
