@@ -117,3 +117,19 @@ Name of the computer:
 Create a Powershell script that fetches useful System event logs.
 
   [Event Logs](eventLogs.ps1)
+
+## Ops Challenge: Class 10
+
+### Objective
+
+Create a Powershell script that performs these operations on separate lines. The overall script is not designed to operate holistically, but rather act as a reference for how to execute various interesting operations with the process family of Powershell commandlets. Clearly indicate with comments each component below.
+
+- Print to the terminal screen all active processes ordered by highest CPU time consumption at the top.
+- Print to the terminal screen all active processes ordered by highest Process Identification Number at the top.
+- Print to the terminal screen the top five active processes ordered by highest Working Set (WS(K)) at the top.
+- Start the process Internet Explorer (iexplore.exe) and have it open https://owasp.org/www-project-top-ten/.
+- Start the process Internet Explorer (iexplore.exe) ten times using a for loop. Have each instance open https://owasp.org/www-project-top-ten/.
+- Close all Internet Explorer windows.
+- Kill a process by its Process Identification Number. Choose a process whose termination won’t destabilize the system, such as Internet Explorer or MS Edge.
+
+[System Process Commands](systemProcessCommands.ps1)
