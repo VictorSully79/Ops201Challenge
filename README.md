@@ -152,3 +152,17 @@ Write a Powershell script that automates the configuration of a new Windows 10 e
 - Disable SMBv1, an insecure protocol
 
 [Automated Endpoints](automatedEndpoint.ps1)
+
+## 20210810
+
+## Ops Challenge: Class 12
+
+### Objective 
+
+Create a Powershell script that performs the following operations:
+
+- Create a local file called network_report.txt that holds the contents of an ipconfig /all command.
+- Use Select-String to search network_report.txt and return only the IP version 4 address.
+- Remove the network_report.txt when you are finished searching it.
+  
+[PowerShell IP Analysis](powerShellIP.ps1)
