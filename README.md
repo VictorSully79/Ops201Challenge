@@ -118,6 +118,8 @@ Create a Powershell script that fetches useful System event logs.
 
   [Event Logs](eventLogs.ps1)
 
+## 20210806
+
 ## Ops Challenge: Class 10
 
 ### Objective
@@ -133,3 +135,20 @@ Create a Powershell script that performs these operations on separate lines. The
 - Kill a process by its Process Identification Number. Choose a process whose termination won’t destabilize the system, such as Internet Explorer or MS Edge.
 
 [System Process Commands](systemProcessCommands.ps1)
+
+## 20210809
+
+## Ops Challenge: Class 11
+
+### Objective
+
+Write a Powershell script that automates the configuration of a new Windows 10 endpoint. Your script should perform the following:
+
+- Enable File and Printer Sharing
+- Allow ICMP traffic
+- Enable Remote management
+- Remove bloatware
+- Enable Hyper-V
+- Disable SMBv1, an insecure protocol
+
+[Automated Endpoints](automatedEndpoint.ps1)
