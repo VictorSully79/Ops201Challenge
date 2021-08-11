@@ -166,3 +166,19 @@ Create a Powershell script that performs the following operations:
 - Remove the network_report.txt when you are finished searching it.
   
 [PowerShell IP Analysis](powerShellIP.ps1)
+
+## 20210811
+
+## Ops Challenge: Class 13
+
+### Objective
+
+- Create a bash script that asks a user to type a domain, then displays information about the typed domain. Operations that must be used include:
+  - whois
+  - dig
+  - host
+  - nslookup
+
+  [Bash Domain Analyzer](bashDomainAnalyzer.sh)
+  
+
