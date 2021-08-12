@@ -170,7 +170,7 @@ Create a Powershell script that performs the following operations:
 - Use Select-String to search network_report.txt and return only the IP version 4 address.
 - Remove the network_report.txt when you are finished searching it.
   
-[PowerShell IP Analysis](powerShellIP.ps1)
+### [PowerShell IP Analysis](powerShellIP.ps1)
 
 ## 20210811
 
@@ -184,10 +184,10 @@ Create a Powershell script that performs the following operations:
   - host
   - nslookup
 
-  [Bash Domain Analyzer](bashDomainAnalyzer.sh)
+### [Bash Domain Analyzer](bashDomainAnalyzer.sh)
 
  
- 
-  - [Ops-201 Course Outline](ops-201.md)
-  - [Back to Readme](README.md)  
+ ### More Pages
+- [Ops-201 Course Outline](ops-201.md)
+- [Back to Readme](README.md)  
   
