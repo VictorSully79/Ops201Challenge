@@ -11,8 +11,8 @@
 
 ### Objectives
 
-1. Stores a fetches network adapter information, then saves that information to a variable.
-2. Generates a output.txt file containing the network adapter information.
+- Stores a fetches network adapter information, then saves that information to a variable.
+- Generates a output.txt file containing the network adapter information.
 
 ### [Network Adapter](networkAdapter.sh)
 
@@ -22,13 +22,13 @@
 
 ### Objectives
 
-1. Write a Bash script that prints the login history of users on this computer.
+- Write a Bash script that prints the login history of users on this computer.
 
-2. Your script must use at least one function and one variable.
+- Your script must use at least one function and one variable.
 
 ### Stretch Goal
 
-1. Include a function that accepts a parameter and uses it.
+- Include a function that accepts a parameter and uses it.
 
 ### [Bash Login](bashLogin.sh)
 
@@ -36,7 +36,7 @@
 
 ### Objectives - Arrays
 
-1. Write a Bash script that:
+- Write a Bash script that:
 
 - Creates four directories: dir1, dir2, dir3, dir4
 
@@ -52,9 +52,9 @@
 
 ### Objectives - Loops
 
-1. Write a script that displays running processes, asks the user for a PID, then kills the process with that PID.
+- Write a script that displays running processes, asks the user for a PID, then kills the process with that PID.
 
-2. Use a loop in your script.
+- Use a loop in your script.
 
 ### [Bash Loop](bashLoop.sh)
 
@@ -64,9 +64,9 @@
 
 ### Objectives - Conditionals
 
-1. Create a Bash script that detects if a file or directory exists, then creates it if it does not exist.
+- Create a Bash script that detects if a file or directory exists, then creates it if it does not exist.
 
-2. Your script must use at least one list, one loop, and one conditional.
+- Your script must use at least one list, one loop, and one conditional.
 
 ### [Conditionals](conditionals.sh)
 
@@ -179,15 +179,15 @@ Create a Powershell script that performs the following operations:
 ### Objective
 
 - Create a bash script that asks a user to type a domain, then displays information about the typed domain. Operations that must be used include:
-  - whois
-  - dig
-  - host
-  - nslookup
+- whois
+- dig
+- host
+- nslookup
 
 ### [Bash Domain Analyzer](bashDomainAnalyzer.sh)
 
  
- ### More Pages
+ ## More Pages
 - [Ops-201 Course Outline](ops-201.md)
 - [Back to Readme](README.md)  
   
