@@ -8,7 +8,6 @@ $Attributes = @{
 Enabled = $true
 ChangePasswordAtLogon = $true
 
-UserPrincipleName = "ferdi@GlobeXpower.com"
 Name = "Franz.Ferdinand"
 GivenName = "Franz"
 SurName = "Ferdinand"
@@ -22,7 +21,7 @@ Title = "TPS Reporting Lead"
 City = "Springfield"
 State = "Utah"
 
-AccountPassword = "testForAddingPerson" | ConvertTo-SecureString -AsPlainText -Force
+AccountPassword = "testForAddingPerson1479" | ConvertTo-SecureString -AsPlainText -Force
 
 }
 
