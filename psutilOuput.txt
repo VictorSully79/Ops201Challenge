@@ -1,0 +1,9 @@
+Time when system was idle: 43714.4375 seconds 
+Time spent by normal processes executing in kernel mode: 15204.625 seconds 
+Time when system was idle: 531598.484375 seconds 
+Time spent by priority processes executing in user mode: 43714.4375 seconds 
+Time spent waiting for I/O to complete: 43714.4375 seconds 
+Time spent for servicing hardware interrupts: 43714.4375 seconds 
+Time spent for servicing software interrupts: 43714.4375 seconds 
+Time spent by other operating systems running in a virtualized environment: 43714.4375 seconds 
+Time spent running a virtual CPU for guest OS under the control of the Linux kernal: 43714.4375 seconds 
