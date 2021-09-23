@@ -22,7 +22,7 @@ elif a!=b:
     MessageBox(None, 'Same a and b are not', 'Window title', 0)
 
 if a<b:
-    print("a is smaller than b :)")
+    print("a is smaller than b :") 
     MessageBox(None, 'Bigger than b, a is not', 'Window title', 0)
 elif a>b: 
     print("Larger than b a is")

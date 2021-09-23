@@ -21,7 +21,7 @@ domainInfo() {
     } > /mnt/c/Users/victo/documents/ops201/Ops201Challenge/domain.txt
 
 # **** Calls the Function ****
-domainInfo
+domainInfo 
 
 # **** delays 1second before opening VScode to read file ****
 sleep 1
