@@ -8,7 +8,7 @@
 import subprocess
 
 # navigate through the requested info
-Id = subprocess.check_output(['systemInfo']).decode('utf-8').split('\n')
+Id = (subprocess.check_output(['systemInfo']).decode('utf-8').split('\n'))
 new = []
 
 # put the output in a readable format
