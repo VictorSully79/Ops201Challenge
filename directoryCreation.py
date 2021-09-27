@@ -4,27 +4,27 @@
 # Create a Python script that generates all directories, sub-directories and files for a user-provided directory path
 
 # Import libraries
-
 import os
 
-# Declaration of variables
+# Variables
+path=input("FilePath goes here: ")
 
-### Read user input here into a variable
+# Functions
+def dirreader():
+    for (root, dirs, files) in os.walk(path):
+        print(root)
 
-# Declaration of functions
+        dirs[:] = [x for x in dirs if not x.startswith('.')]
 
-### Declare a function here
+        for dir in dirs:
+            print(os.path.join(root, dir))
+        
+        files[:] = [x for x in files if not x.startswith('.')]
 
-for (root, dirs, files) in os.walk("testdir"):
-    ### Add a print command here to print ==root==
-    print(root)
-    ### Add a print command here to print ==dirs==
-    print(dirs)
-    ### Add a print command here to print ==files==
-    print(files)
+        for file in files:
+            print(os.path.join(root, file))        
 
 # Main
+dirreader()
 
-### Pass the variable into the function here
-
-# Endt
+# End
