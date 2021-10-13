@@ -1,8 +1,7 @@
-# fileEncryptionPt1.py
+# recursiveAddOn.py
 # Victor Sullivan
-# 20211011
-# Script to Encrypt File
-
+# 20211012
+# Script to Recursively Encrypt
 
 from cryptography.fernet import Fernet
 import time
