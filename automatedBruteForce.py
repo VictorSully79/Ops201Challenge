@@ -3,11 +3,6 @@
 # 20211025
 # Custom tool to perform brute force attacks
 
-# Event Logs
-# Victor Sullivan   
-# 20210805
-# Create a PowerShell script that fetches useful System event logs.
-
 from offensive import *
 from defensive import *
 from time import sleep
