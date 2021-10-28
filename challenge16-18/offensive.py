@@ -10,7 +10,7 @@ class OffensiveDic:
     def directoryPath(self):
         userOutcome = input("Whats the directory this word list? (default will be rockyou.txt)")
         if(userOutcome == ""):
-            userOutcome = "./rockyou.txt"
+            userOutcome = "rockyou.txt"
         return userOutcome
     
     ## printing the content in the text file
@@ -21,4 +21,4 @@ class OffensiveDic:
         for line in readfile:
             print(line)
             sleep(.5)
-        input("Complete. Press any key to contine")
+        input("Complete. Press any key to continue")

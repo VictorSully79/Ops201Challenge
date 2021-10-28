@@ -27,7 +27,7 @@ class AuthSSH():
         self.crackPW(client)
         
     def crackPW(self,client):
-        textFile = os.path.abspath("./rockyou.txt")
+        textFile = os.path.abspath("rockyou.txt")
         file = open(textFile, "r")
         readfile = file.read().splitlines()
         print(self.user_name)

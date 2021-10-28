@@ -11,7 +11,7 @@ class DefensivePW:
     def directoryInput(self):
         uPath = input("What's the file path for the text file? (default will be from rockyou.txt)")
         if(uPath == ""):
-            uPath = "./rockyou.txt"
+            uPath = "rockyou.txt"
         return uPath
 
     ## Taking the path and user's input to check if it is in the text file.
