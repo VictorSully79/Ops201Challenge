@@ -1,7 +1,9 @@
-# arrayManipulation
-# Victor Sullivan
-# 20210909
-# Manipulate an array in python
+#!/usr/bin/env python
+#Import Library
+#script Name: eventLoggingToolPt1
+#Author: Victor Sullivan    
+#Date: 20211108
+#Description of purpose: Python Script to Log Errors
 
 import logging
 
@@ -17,6 +19,5 @@ randomStrings[6] = "onion"
 
 print("Here is the new array: ", randomStrings)
 
-
-
-
+logging.warning('Be Careful, you may get good at this!')
+logging.info('Still working on skills')
